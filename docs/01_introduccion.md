@@ -39,7 +39,7 @@ Personal de TransNova Logistics|Gestiona la información de clientes, envíos y 
 Administrador del sistema	|Se encarga de mantener el servidor, la aplicación y la base de datos.	|Disponer de una infraestructura estable, segura y correctamente configurada.
 Desarrollador del proyecto	|Diseña, configura, implementa y documenta la solución.	|Integrar correctamente la aplicación web, el servidor y la base de datos.
 
-
+<!-- Introducción del proyecto TransNova Logistics -->
 
 
 
