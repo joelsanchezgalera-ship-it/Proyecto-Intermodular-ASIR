@@ -9,6 +9,8 @@ Durante el desarrollo del proyecto anterior, la página web tenía principalment
 
 El objetivo de esta ampliación será conectar la aplicación web con la base de datos, configurar un servidor Apache para alojarla y desarrollar la comunicación entre la web y el servidor. De esta forma, la información introducida desde la aplicación podrá ser gestionada mediante la base de datos en lugar de limitarse a mostrar contenido estático.
 
+Durante este curso se continuará el desarrollo para conseguir una aplicación web más funcional, integrada con la base de datos y desplegada mediante Apache.
+
 ## 1.3. Problemática o necesidad
 El proyecto inicial de TransNova Logistics dispone de una página web y de una base de datos, pero estos elementos no están integrados de forma funcional. La web tiene principalmente un carácter informativo, por lo que los formularios y la gestión de información no permiten realizar operaciones reales sobre la base de datos.
 
