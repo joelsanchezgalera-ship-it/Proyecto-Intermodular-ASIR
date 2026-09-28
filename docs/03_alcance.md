@@ -21,3 +21,20 @@ El proyecto tiene como objetivo transformar la página web inicial de TransNova 
 En esta fase no se contempla el desarrollo de una aplicación móvil, la integración con plataformas externas de transporte o sistemas de pago, ni la creación de una infraestructura empresarial de producción.
 
 Estas funcionalidades podrían plantearse como ampliaciones futuras del proyecto.
+
+## 3.2. Alcance técnico
+
+El proyecto utilizará una arquitectura basada en una aplicación web, un servidor Linux y una base de datos relacional.
+
+Las principales tecnologías previstas son:
+
+- **Sistema operativo:** Ubuntu Server.
+- **Servidor web:** Apache.
+- **Base de datos:** MySQL/MariaDB.
+- **Aplicación web:** HTML, CSS y un lenguaje de programación del lado del servidor.
+- **Contenedores:** Docker, para facilitar la instalación y gestión de determinados servicios durante el desarrollo.
+- **Red:** configuración de red necesaria para permitir la comunicación entre los diferentes componentes.
+
+La infraestructura se desarrollará inicialmente en un entorno de pruebas y se documentará la configuración realizada. El objetivo es disponer de una plataforma que permita ejecutar la aplicación web y conectarla con la base de datos de forma controlada.
+
+La elección definitiva de la plataforma de virtualización o despliegue se justificará posteriormente entre las alternativas indicadas en la actividad: **GNS3, AWS o Docker**.
