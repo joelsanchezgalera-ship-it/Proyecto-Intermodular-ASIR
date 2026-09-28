@@ -54,7 +54,15 @@ En esta segunda fase del proyecto se pretende ampliar la solución anterior y co
 
 Al tratarse de una empresa simulada, el proyecto se centra principalmente en diseñar y demostrar una solución tecnológica que pueda representar las necesidades de una empresa real del sector logístico.
 
+### 1.6.2. Contexto tecnológico
 
+El proyecto parte de una infraestructura tecnológica planteada durante el primer curso de ASIR. La solución inicial incluye un servidor basado en Ubuntu Server, una red local y una base de datos relacional destinada a gestionar la información de clientes, envíos y servicios.
+
+La página web desarrollada inicialmente tiene principalmente una función informativa y está formada por diferentes páginas HTML y hojas de estilos CSS. Aunque se diseñaron formularios y una estructura preparada para una futura integración, estos elementos no eran todavía completamente funcionales.
+
+En esta segunda fase se pretende aumentar el nivel de digitalización de la solución mediante la integración de la aplicación web con la base de datos. También se plantea utilizar un servidor Apache para alojar la aplicación y permitir la comunicación entre los diferentes componentes.
+
+La infraestructura tecnológica se irá ampliando durante el desarrollo del proyecto, incorporando los servicios necesarios para que la aplicación pueda funcionar de forma centralizada, segura y estable.
 
 
 
