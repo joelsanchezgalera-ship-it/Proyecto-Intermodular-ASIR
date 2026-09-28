@@ -42,3 +42,19 @@ Los requisitos de negocio describen las necesidades principales que debe cubrir 
 | RN-004 | La información de clientes, envíos y servicios deberá mantenerse centralizada. | Alta | Planificado |
 | RN-005 | La aplicación deberá facilitar el acceso a la información necesaria para la gestión de la actividad. | Media | Planificado |
 | RN-006 | La solución deberá permitir ampliar sus funcionalidades en futuras fases del proyecto. | Media | Planificado |
+
+## 4.4. Requisitos por módulos de ASIR
+
+### 4.4.1. ASGBD
+
+Los requisitos relacionados con el módulo de Administración de Sistemas Gestores de Bases de Datos se centran en la instalación, configuración y gestión de la base de datos utilizada por la aplicación.
+
+| ID | Requisito | Prioridad | Estado |
+|---|---|---|---|
+| ASGBD-001 | El sistema deberá disponer de un sistema gestor de bases de datos para almacenar la información de la aplicación. | Alta | Planificado |
+| ASGBD-002 | La base de datos deberá almacenar información relacionada con clientes, envíos y servicios. | Alta | Planificado |
+| ASGBD-003 | El sistema deberá permitir realizar consultas sobre la información almacenada. | Alta | Planificado |
+| ASGBD-004 | Se deberán realizar copias de seguridad de la base de datos. | Alta | Planificado |
+| ASGBD-005 | El acceso a la base de datos deberá estar protegido mediante usuarios y permisos adecuados. | Alta | Planificado |
+
+
