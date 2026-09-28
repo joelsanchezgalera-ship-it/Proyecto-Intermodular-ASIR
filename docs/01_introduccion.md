@@ -78,6 +78,17 @@ La digitalización es una de las principales tendencias del sector. El seguimien
 
 Por este motivo, el desarrollo de una aplicación web conectada a una base de datos puede representar una mejora tecnológica para TransNova Logistics, ya que permitiría centralizar la información de clientes, envíos y servicios y facilitar su gestión.
 
+### 1.6.4. Contexto social y geográfico
+
+TransNova Logistics se plantea dentro del entorno de **Crevillent, en la provincia de Alicante**, un municipio con una importante actividad empresarial e industrial. Históricamente, la industria de la alfombra ha tenido un papel destacado en la economía local, mientras que actualmente la actividad económica está más diversificada y tiene un peso importante el sector servicios.
+
+El municipio cuenta además con diferentes áreas industriales y un tejido empresarial formado por empresas de distintos sectores. El Ayuntamiento dispone de un directorio empresarial en el que aparecen actividades relacionadas con el comercio, la industria, los servicios y también el transporte.
+
+La situación de Crevillent dentro del entorno de la provincia de Alicante y su proximidad a ciudades como Elche favorecen la relación con otras zonas empresariales y comerciales. Esta situación resulta relevante para una empresa dedicada al transporte y la logística, ya que sus actividades pueden estar relacionadas con el movimiento de mercancías entre empresas, clientes y diferentes localidades.
+
+Desde el punto de vista social y económico, la digitalización de las empresas puede contribuir a mejorar la gestión de sus actividades. De hecho, el Ayuntamiento ha impulsado durante los últimos años diferentes iniciativas relacionadas con el emprendimiento, la innovación y la modernización de establecimientos y actividades económicas.
+
+Por este motivo, el proyecto de TransNova Logistics pretende representar una solución tecnológica adaptada a las necesidades de una empresa del entorno, utilizando una aplicación web y una infraestructura informática que permitan gestionar la información de forma centralizada.
 
 
 
