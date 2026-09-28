@@ -38,3 +38,19 @@ Las principales tecnologías previstas son:
 La infraestructura se desarrollará inicialmente en un entorno de pruebas y se documentará la configuración realizada. El objetivo es disponer de una plataforma que permita ejecutar la aplicación web y conectarla con la base de datos de forma controlada.
 
 La elección definitiva de la plataforma de virtualización o despliegue se justificará posteriormente entre las alternativas indicadas en la actividad: **GNS3, AWS o Docker**.
+
+## 3.3. Alcance temporal
+
+El proyecto se desarrollará de forma progresiva, organizando el trabajo en diferentes fases para facilitar la planificación, implementación y documentación de la solución.
+
+| Fase | Descripción | Resultado previsto |
+|---|---|---|
+| Fase 1 | Análisis y planificación | Definición del reto, objetivos, alcance y requisitos. |
+| Fase 2 | Diseño de la solución | Diseño de la aplicación, base de datos e infraestructura. |
+| Fase 3 | Configuración del entorno | Preparación del sistema operativo, servidor y servicios necesarios. |
+| Fase 4 | Desarrollo e integración | Desarrollo de la aplicación y conexión con la base de datos. |
+| Fase 5 | Seguridad y copias de seguridad | Aplicación de medidas básicas de seguridad y configuración de copias de seguridad. |
+| Fase 6 | Pruebas | Comprobación del funcionamiento de la aplicación y de los servicios. |
+| Fase 7 | Documentación y presentación | Documentación del proyecto y preparación de la defensa final. |
+
+Los principales hitos serán la finalización de la fase de análisis, la disponibilidad del entorno de servidor, la integración de la aplicación con la base de datos, la realización de las pruebas y la entrega final del proyecto.
