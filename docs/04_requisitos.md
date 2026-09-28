@@ -82,3 +82,15 @@ Los requisitos relacionados con el módulo de Implantación de Aplicaciones Web 
 | IAW-004 | La aplicación deberá mostrar correctamente la información obtenida de la base de datos. | Alta | Planificado |
 | IAW-005 | La aplicación deberá mantener una estructura organizada que facilite su mantenimiento. | Media | Planificado |
 | IAW-006 | Se deberán realizar pruebas para comprobar el correcto funcionamiento de la aplicación web. | Alta | Planificado |
+
+### 4.4.4. Servicios de Red e Internet
+
+Los requisitos relacionados con el módulo de Servicios de Red e Internet se centran en la configuración de la red y de los servicios necesarios para permitir la comunicación con la aplicación web.
+
+| ID | Requisito | Prioridad | Estado |
+|---|---|---|---|
+| SRI-001 | El servidor deberá disponer de una configuración de red adecuada para proporcionar los servicios de la aplicación. | Alta | Planificado |
+| SRI-002 | La red deberá permitir la comunicación entre la aplicación web y la base de datos. | Alta | Planificado |
+| SRI-003 | El servidor web deberá estar accesible desde los equipos utilizados para realizar las pruebas. | Alta | Planificado |
+| SRI-004 | Se deberán comprobar los servicios de red necesarios para garantizar el funcionamiento de la aplicación. | Media | Planificado |
+| SRI-005 | La configuración de red deberá documentarse para facilitar su mantenimiento. | Media | Planificado |
