@@ -57,4 +57,15 @@ Los requisitos relacionados con el módulo de Administración de Sistemas Gestor
 | ASGBD-004 | Se deberán realizar copias de seguridad de la base de datos. | Alta | Planificado |
 | ASGBD-005 | El acceso a la base de datos deberá estar protegido mediante usuarios y permisos adecuados. | Alta | Planificado |
 
+### 4.4.2. ASO
 
+Los requisitos relacionados con el módulo de Administración de Sistemas Operativos se centran en la configuración y mantenimiento del servidor Linux que proporcionará los servicios necesarios para la aplicación.
+
+| ID | Requisito | Prioridad | Estado |
+|---|---|---|---|
+| ASO-001 | El servidor deberá utilizar Ubuntu Server como sistema operativo. | Alta | Planificado |
+| ASO-002 | El servidor deberá disponer de Apache para alojar la aplicación web. | Alta | Planificado |
+| ASO-003 | El sistema deberá disponer de los servicios necesarios para ejecutar la aplicación web. | Alta | Planificado |
+| ASO-004 | El servidor deberá mantenerse actualizado mediante las herramientas de actualización del sistema. | Alta | Planificado |
+| ASO-005 | El sistema deberá disponer de una configuración de red adecuada para permitir el funcionamiento de la aplicación. | Alta | Planificado |
+| ASO-006 | Se deberán realizar tareas básicas de mantenimiento y comprobación del funcionamiento del servidor. | Media | Planificado |
