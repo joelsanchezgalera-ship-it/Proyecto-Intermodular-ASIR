@@ -42,55 +42,6 @@ Administrador del sistema	|Se encarga de mantener el servidor, la aplicación y 
 Desarrollador del proyecto	|Diseña, configura, implementa y documenta la solución.	|Integrar correctamente la aplicación web, el servidor y la base de datos.
 
 <!-- Introducción del proyecto TransNova Logistics -->
-## 1.6. Análisis del contexto
-
-### 1.6.1. Contexto empresarial
-
-TransNova Logistics es una empresa simulada del sector del transporte y la logística, creada como base del proyecto desarrollado durante el primer curso de ASIR. Su actividad está relacionada con la gestión de clientes, envíos y servicios de transporte.
-
-El proyecto inicial planteaba la creación de una página web corporativa para presentar los servicios de la empresa y facilitar la gestión de información relacionada con su actividad. También se diseñó una base de datos relacional para almacenar información de clientes, envíos y servicios.
-
-En esta segunda fase del proyecto se pretende ampliar la solución anterior y convertirla en una aplicación web funcional. De esta forma, TransNova Logistics podrá disponer de una plataforma centralizada desde la que gestionar la información de su actividad y mejorar la integración entre la aplicación web, la base de datos y la infraestructura de servidores.
-
-Al tratarse de una empresa simulada, el proyecto se centra principalmente en diseñar y demostrar una solución tecnológica que pueda representar las necesidades de una empresa real del sector logístico.
-
-### 1.6.2. Contexto tecnológico
-
-El proyecto parte de una infraestructura tecnológica planteada durante el primer curso de ASIR. La solución inicial incluye un servidor basado en Ubuntu Server, una red local y una base de datos relacional destinada a gestionar la información de clientes, envíos y servicios.
-
-La página web desarrollada inicialmente tiene principalmente una función informativa y está formada por diferentes páginas HTML y hojas de estilos CSS. Aunque se diseñaron formularios y una estructura preparada para una futura integración, estos elementos no eran todavía completamente funcionales.
-
-En esta segunda fase se pretende aumentar el nivel de digitalización de la solución mediante la integración de la aplicación web con la base de datos. También se plantea utilizar un servidor Apache para alojar la aplicación y permitir la comunicación entre los diferentes componentes.
-
-La infraestructura tecnológica se irá ampliando durante el desarrollo del proyecto, incorporando los servicios necesarios para que la aplicación pueda funcionar de forma centralizada, segura y estable.
-
-### 1.6.3. Contexto del mercado
-
-TransNova Logistics se sitúa dentro del sector del transporte y la logística, un sector estrechamente relacionado con el crecimiento del comercio electrónico y con la necesidad de gestionar cada vez un mayor volumen de envíos.
-
-En España, la logística vinculada al comercio electrónico generó 4.435 millones de euros en 2025, lo que supone un crecimiento del 6 % respecto al año anterior. Además, los diez principales operadores concentraron el 51 % del mercado, mostrando la existencia de una competencia importante y de empresas de gran tamaño. 
-
-El crecimiento de la paquetería también refleja la evolución del sector. Durante 2025 se enviaron en España 1.335 millones de paquetes, un 10 % más que en 2024. Este crecimiento está relacionado con la expansión del comercio electrónico y con la necesidad de ofrecer servicios de transporte y entrega cada vez más eficientes.
-
-Entre los operadores presentes en el mercado español se encuentran empresas como DHL, FedEx, UPS, Correos Express, GLS, MRW, NACEX, SEUR e InPost, entre otras. Esto hace que las empresas del sector tengan que diferenciarse mediante aspectos como la calidad del servicio, la rapidez, la información proporcionada al cliente y la utilización de tecnologías digitales.
-
-La digitalización es una de las principales tendencias del sector. El seguimiento de envíos en tiempo real, el análisis de datos y el uso de nuevas tecnologías permiten mejorar la planificación de rutas, reducir errores y ofrecer una mayor información al cliente.
-
-Por este motivo, el desarrollo de una aplicación web conectada a una base de datos puede representar una mejora tecnológica para TransNova Logistics, ya que permitiría centralizar la información de clientes, envíos y servicios y facilitar su gestión.
-
-### 1.6.4. Contexto social y geográfico
-
-TransNova Logistics se plantea dentro del entorno de **Crevillent, en la provincia de Alicante**, un municipio con una importante actividad empresarial e industrial. Históricamente, la industria de la alfombra ha tenido un papel destacado en la economía local, mientras que actualmente la actividad económica está más diversificada y tiene un peso importante el sector servicios.
-
-El municipio cuenta además con diferentes áreas industriales y un tejido empresarial formado por empresas de distintos sectores. El Ayuntamiento dispone de un directorio empresarial en el que aparecen actividades relacionadas con el comercio, la industria, los servicios y también el transporte.
-
-La situación de Crevillent dentro del entorno de la provincia de Alicante y su proximidad a ciudades como Elche favorecen la relación con otras zonas empresariales y comerciales. Esta situación resulta relevante para una empresa dedicada al transporte y la logística, ya que sus actividades pueden estar relacionadas con el movimiento de mercancías entre empresas, clientes y diferentes localidades.
-
-Desde el punto de vista social y económico, la digitalización de las empresas puede contribuir a mejorar la gestión de sus actividades. De hecho, el Ayuntamiento ha impulsado durante los últimos años diferentes iniciativas relacionadas con el emprendimiento, la innovación y la modernización de establecimientos y actividades económicas.
-
-Por este motivo, el proyecto de TransNova Logistics pretende representar una solución tecnológica adaptada a las necesidades de una empresa del entorno, utilizando una aplicación web y una infraestructura informática que permitan gestionar la información de forma centralizada.
-
-
 
 
 
