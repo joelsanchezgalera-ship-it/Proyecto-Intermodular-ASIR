@@ -94,3 +94,16 @@ Los requisitos relacionados con el módulo de Servicios de Red e Internet se cen
 | SRI-003 | El servidor web deberá estar accesible desde los equipos utilizados para realizar las pruebas. | Alta | Planificado |
 | SRI-004 | Se deberán comprobar los servicios de red necesarios para garantizar el funcionamiento de la aplicación. | Media | Planificado |
 | SRI-005 | La configuración de red deberá documentarse para facilitar su mantenimiento. | Media | Planificado |
+
+### 4.4.5. Seguridad y Alta Disponibilidad
+
+Los requisitos relacionados con Seguridad y Alta Disponibilidad se centran en proteger la información y mantener el funcionamiento de los servicios utilizados por la aplicación.
+
+| ID | Requisito | Prioridad | Estado |
+|---|---|---|---|
+| SA-001 | El acceso a los servicios del sistema deberá estar protegido mediante usuarios y permisos adecuados. | Alta | Planificado |
+| SA-002 | Se deberán aplicar medidas básicas de seguridad en el servidor y en la aplicación web. | Alta | Planificado |
+| SA-003 | La información importante deberá disponer de copias de seguridad. | Alta | Planificado |
+| SA-004 | Se deberán realizar pruebas para comprobar la recuperación de la información a partir de las copias de seguridad. | Media | Planificado |
+| SA-005 | Se deberán mantener actualizados el sistema operativo y los servicios utilizados. | Alta | Planificado |
+| SA-006 | Se deberán documentar las medidas de seguridad y los procedimientos de recuperación utilizados. | Media | Planificado |
