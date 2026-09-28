@@ -107,3 +107,34 @@ Los requisitos relacionados con Seguridad y Alta Disponibilidad se centran en pr
 | SA-004 | Se deberán realizar pruebas para comprobar la recuperación de la información a partir de las copias de seguridad. | Media | Planificado |
 | SA-005 | Se deberán mantener actualizados el sistema operativo y los servicios utilizados. | Alta | Planificado |
 | SA-006 | Se deberán documentar las medidas de seguridad y los procedimientos de recuperación utilizados. | Media | Planificado |
+
+## 4.5. Matriz de trazabilidad
+
+La matriz de trazabilidad relaciona los requisitos definidos en el proyecto con los módulos de ASIR que intervienen en su desarrollo.
+
+| Requisito | ASGBD | ASO | IAW | Servicios de Red e Internet | Seguridad y Alta Disponibilidad |
+|---|---|---|---|---|---|
+| RF-001 |  |  | X |  |  |
+| RF-002 | X |  | X |  |  |
+| RF-003 | X |  | X |  |  |
+| RF-004 | X |  | X |  |  |
+| RF-005 |  |  | X |  |  |
+| RF-006 | X |  | X |  |  |
+| RF-007 | X |  | X |  |  |
+| RF-008 | X | X | X | X |  |
+| RF-009 |  | X | X | X |  |
+| RF-010 | X | X | X | X | X |
+| RNF-001 |  | X | X |  |  |
+| RNF-002 |  |  | X |  |  |
+| RNF-003 | X | X | X |  | X |
+| RNF-004 |  | X |  |  | X |
+| RNF-005 | X | X |  |  | X |
+| RNF-006 |  | X | X | X | X |
+| RNF-007 |  | X | X | X | X |
+| RNF-008 | X | X | X | X |  |
+| RN-001 | X |  | X |  |  |
+| RN-002 | X |  | X |  |  |
+| RN-003 | X |  | X |  |  |
+| RN-004 | X | X | X |  |  |
+| RN-005 | X | X | X | X |  |
+| RN-006 | X | X | X |  |  |
