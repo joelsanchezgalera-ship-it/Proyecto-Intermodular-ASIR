@@ -29,3 +29,16 @@ Los requisitos no funcionales definen las características de calidad, seguridad
 | RNF-006 | La aplicación deberá estar disponible durante las pruebas y demostraciones previstas. | Media | Planificado |
 | RNF-007 | La solución deberá estar documentada para facilitar su mantenimiento y configuración. | Alta | Planificado |
 | RNF-008 | Los diferentes componentes deberán estar organizados de forma que faciliten su mantenimiento. | Media | Planificado |
+
+## 4.3. Requisitos de negocio
+
+Los requisitos de negocio describen las necesidades principales que debe cubrir la solución desde el punto de vista de la actividad de TransNova Logistics.
+
+| ID | Requisito de negocio | Prioridad | Estado |
+|---|---|---|---|
+| RN-001 | La solución deberá facilitar la gestión de la información relacionada con los clientes. | Alta | Planificado |
+| RN-002 | La solución deberá facilitar la gestión de los envíos realizados por la empresa. | Alta | Planificado |
+| RN-003 | La solución deberá permitir gestionar la información de los servicios ofrecidos. | Alta | Planificado |
+| RN-004 | La información de clientes, envíos y servicios deberá mantenerse centralizada. | Alta | Planificado |
+| RN-005 | La aplicación deberá facilitar el acceso a la información necesaria para la gestión de la actividad. | Media | Planificado |
+| RN-006 | La solución deberá permitir ampliar sus funcionalidades en futuras fases del proyecto. | Media | Planificado |
