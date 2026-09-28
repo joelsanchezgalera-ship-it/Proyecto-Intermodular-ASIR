@@ -54,3 +54,23 @@ El proyecto se desarrollará de forma progresiva, organizando el trabajo en dife
 | Fase 7 | Documentación y presentación | Documentación del proyecto y preparación de la defensa final. |
 
 Los principales hitos serán la finalización de la fase de análisis, la disponibilidad del entorno de servidor, la integración de la aplicación con la base de datos, la realización de las pruebas y la entrega final del proyecto.
+
+## 3.4. Alcance de recursos
+
+El proyecto será desarrollado utilizando los recursos disponibles para el desarrollo del Proyecto Intermodular de 2.º ASIR.
+
+### Recursos humanos
+
+El desarrollo, configuración, pruebas y documentación del proyecto serán realizados por el alumno, aplicando los conocimientos adquiridos en los diferentes módulos del ciclo.
+
+### Recursos hardware
+
+Se utilizará un equipo informático capaz de ejecutar el entorno de desarrollo y las máquinas o contenedores necesarios para realizar las pruebas del proyecto.
+
+### Recursos software
+
+Se utilizarán principalmente herramientas y tecnologías relacionadas con sistemas Linux, servidores web, bases de datos, redes, seguridad y virtualización o contenedores.
+
+### Recursos económicos
+
+El proyecto se plantea utilizando principalmente software y tecnologías que permitan realizar el desarrollo en un entorno académico sin necesidad de contratar servicios externos. Por este motivo, no se establece inicialmente un presupuesto de infraestructura física o de servicios cloud.
