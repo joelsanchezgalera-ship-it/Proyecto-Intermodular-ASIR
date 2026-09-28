@@ -64,5 +64,39 @@ En esta segunda fase se pretende aumentar el nivel de digitalización de la solu
 
 La infraestructura tecnológica se irá ampliando durante el desarrollo del proyecto, incorporando los servicios necesarios para que la aplicación pueda funcionar de forma centralizada, segura y estable.
 
+### 1.6.3. Contexto del mercado
+
+TransNova Logistics se sitúa dentro del sector del transporte y la logística, un sector estrechamente relacionado con el crecimiento del comercio electrónico y con la necesidad de gestionar cada vez un mayor volumen de envíos.
+
+En España, la logística vinculada al comercio electrónico generó 4.435 millones de euros en 2025, lo que supone un crecimiento del 6 % respecto al año anterior. Además, los diez principales operadores concentraron el 51 % del mercado, mostrando la existencia de una competencia importante y de empresas de gran tamaño. 
+
+El crecimiento de la paquetería también refleja la evolución del sector. Durante 2025 se enviaron en España 1.335 millones de paquetes, un 10 % más que en 2024. Este crecimiento está relacionado con la expansión del comercio electrónico y con la necesidad de ofrecer servicios de transporte y entrega cada vez más eficientes.
+
+Entre los operadores presentes en el mercado español se encuentran empresas como DHL, FedEx, UPS, Correos Express, GLS, MRW, NACEX, SEUR e InPost, entre otras. Esto hace que las empresas del sector tengan que diferenciarse mediante aspectos como la calidad del servicio, la rapidez, la información proporcionada al cliente y la utilización de tecnologías digitales.
+
+La digitalización es una de las principales tendencias del sector. El seguimiento de envíos en tiempo real, el análisis de datos y el uso de nuevas tecnologías permiten mejorar la planificación de rutas, reducir errores y ofrecer una mayor información al cliente.
+
+Por este motivo, el desarrollo de una aplicación web conectada a una base de datos puede representar una mejora tecnológica para TransNova Logistics, ya que permitiría centralizar la información de clientes, envíos y servicios y facilitar su gestión.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
