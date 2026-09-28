@@ -69,3 +69,16 @@ Los requisitos relacionados con el módulo de Administración de Sistemas Operat
 | ASO-004 | El servidor deberá mantenerse actualizado mediante las herramientas de actualización del sistema. | Alta | Planificado |
 | ASO-005 | El sistema deberá disponer de una configuración de red adecuada para permitir el funcionamiento de la aplicación. | Alta | Planificado |
 | ASO-006 | Se deberán realizar tareas básicas de mantenimiento y comprobación del funcionamiento del servidor. | Media | Planificado |
+
+### 4.4.3. IAW
+
+Los requisitos relacionados con el módulo de Implantación de Aplicaciones Web se centran en el desarrollo, configuración y despliegue de la aplicación web de TransNova Logistics.
+
+| ID | Requisito | Prioridad | Estado |
+|---|---|---|---|
+| IAW-001 | La aplicación deberá estar disponible mediante un servidor web Apache. | Alta | Planificado |
+| IAW-002 | La aplicación deberá permitir la introducción de información mediante formularios web. | Alta | Planificado |
+| IAW-003 | La aplicación deberá comunicarse con la base de datos para almacenar y consultar información. | Alta | Planificado |
+| IAW-004 | La aplicación deberá mostrar correctamente la información obtenida de la base de datos. | Alta | Planificado |
+| IAW-005 | La aplicación deberá mantener una estructura organizada que facilite su mantenimiento. | Media | Planificado |
+| IAW-006 | Se deberán realizar pruebas para comprobar el correcto funcionamiento de la aplicación web. | Alta | Planificado |
