@@ -42,7 +42,17 @@ Administrador del sistema	|Se encarga de mantener el servidor, la aplicación y 
 Desarrollador del proyecto	|Diseña, configura, implementa y documenta la solución.	|Integrar correctamente la aplicación web, el servidor y la base de datos.
 
 <!-- Introducción del proyecto TransNova Logistics -->
+## 1.6. Análisis del contexto
 
+### 1.6.1. Contexto empresarial
+
+TransNova Logistics es una empresa simulada del sector del transporte y la logística, creada como base del proyecto desarrollado durante el primer curso de ASIR. Su actividad está relacionada con la gestión de clientes, envíos y servicios de transporte.
+
+El proyecto inicial planteaba la creación de una página web corporativa para presentar los servicios de la empresa y facilitar la gestión de información relacionada con su actividad. También se diseñó una base de datos relacional para almacenar información de clientes, envíos y servicios.
+
+En esta segunda fase del proyecto se pretende ampliar la solución anterior y convertirla en una aplicación web funcional. De esta forma, TransNova Logistics podrá disponer de una plataforma centralizada desde la que gestionar la información de su actividad y mejorar la integración entre la aplicación web, la base de datos y la infraestructura de servidores.
+
+Al tratarse de una empresa simulada, el proyecto se centra principalmente en diseñar y demostrar una solución tecnológica que pueda representar las necesidades de una empresa real del sector logístico.
 
 
 
