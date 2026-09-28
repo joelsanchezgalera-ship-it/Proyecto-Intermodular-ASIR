@@ -74,3 +74,20 @@ Se utilizarán principalmente herramientas y tecnologías relacionadas con siste
 ### Recursos económicos
 
 El proyecto se plantea utilizando principalmente software y tecnologías que permitan realizar el desarrollo en un entorno académico sin necesidad de contratar servicios externos. Por este motivo, no se establece inicialmente un presupuesto de infraestructura física o de servicios cloud.
+
+## 3.5. Elección y justificación de la plataforma
+
+La plataforma elegida para el proyecto es **Docker**.
+
+Docker permite ejecutar aplicaciones y servicios dentro de contenedores independientes, facilitando su instalación, configuración y gestión. Esta característica resulta adecuada para el proyecto, ya que permite disponer de un entorno controlado para ejecutar diferentes servicios relacionados con la aplicación web y la base de datos.
+
+La utilización de Docker también facilita la separación de los diferentes componentes de la solución. De esta forma, los servicios pueden configurarse y probarse de manera independiente, reduciendo las dificultades relacionadas con la instalación de dependencias directamente sobre el sistema operativo.
+
+Además, Docker permite reproducir el entorno de trabajo con mayor facilidad y facilita las tareas de pruebas, configuración y documentación del proyecto.
+
+GNS3 no será la plataforma principal elegida porque está especialmente orientada a la simulación y emulación de redes, mientras que el objetivo principal de este proyecto es desarrollar y desplegar una aplicación web conectada a una base de datos.
+
+AWS tampoco será la plataforma principal, ya que el proyecto se plantea inicialmente en un entorno académico y se pretende evitar depender de servicios cloud de pago. Docker permite realizar el desarrollo y las pruebas utilizando los recursos disponibles.
+
+Por estos motivos, Docker se utilizará como plataforma principal para los servicios que puedan beneficiarse del uso de contenedores dentro del proyecto.
+
