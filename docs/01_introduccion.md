@@ -24,14 +24,14 @@ Objetivo general
 Desarrollar una aplicación web funcional para TransNova Logistics que permita gestionar información de la empresa mediante una base de datos y que esté alojada en un servidor Apache correctamente configurado.
 
 Objetivos específicos
-- Adaptar la página web desarrollada en el proyecto anterior para convertirla en una aplicación funcional.
-- Conectar la aplicación web con la base de datos de TransNova Logistics.
-- Configurar un servidor Linux con Apache para alojar la aplicación web.
-- Permitir el envío y consulta de información desde la aplicación web mediante la base de datos.
-- Organizar la información relacionada con clientes, envíos y servicios.
-- Configurar los servicios necesarios para que la aplicación funcione correctamente en el servidor.
-- Aplicar medidas básicas de seguridad y realizar copias de seguridad de la información.
-- Documentar la configuración realizada y las pruebas de funcionamiento del proyecto.
+- **Adaptar la página web desarrollada en el proyecto anterior para convertirla en una aplicación funcional.**
+- **Conectar la aplicación web con la base de datos de TransNova Logistics.**
+- **Configurar un servidor Linux con Apache para alojar la aplicación web.**
+- **Permitir el envío y consulta de información desde la aplicación web mediante la base de datos.**
+- **Organizar la información relacionada con clientes, envíos y servicios.**
+- **Configurar los servicios necesarios para que la aplicación funcione correctamente en el servidor.**
+- **Aplicar medidas básicas de seguridad y realizar copias de seguridad de la información.**
+- **Documentar la configuración realizada y las pruebas de funcionamiento del proyecto.**
 
 ## 1.5 Interesados
 | Interesado | Relación con el proyecto | Necesidad principal |
