@@ -18,7 +18,7 @@ Esta situación limita la utilidad de la aplicación, ya que la información rel
 
 Por ello, surge la necesidad de transformar la web existente en una aplicación funcional que permita gestionar información de forma centralizada y que pueda ejecutarse sobre una infraestructura de servidor configurada específicamente para el proyecto.
 
-## 1.4. Objetivos
+### 1.4. Objetivos
 Objetivo general
 
 Desarrollar una aplicación web funcional para TransNova Logistics que permita gestionar información de la empresa mediante una base de datos y que esté alojada en un servidor Apache correctamente configurado.
