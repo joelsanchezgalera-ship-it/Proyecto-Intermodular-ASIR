@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Requisitos - Proyecto Intermodular ASIR</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Proyecto Intermodular ASIR</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../01_introduccion/" class="nav-link">Introducción</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../02_contexto/" class="nav-link">Contexto_y_dafo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../03_alcance/" class="nav-link">Alcance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Requisitos</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../03_alcance/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#4-requisitos-del-proyecto" class="nav-link">4. Requisitos del proyecto</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#41-requisitos-funcionales" class="nav-link">4.1. Requisitos funcionales</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#43-requisitos-de-negocio" class="nav-link">4.3. Requisitos de negocio</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#44-requisitos-por-modulos-de-asir" class="nav-link">4.4. Requisitos por módulos de ASIR</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#45-matriz-de-trazabilidad" class="nav-link">4.5. Matriz de trazabilidad</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="4-requisitos-del-proyecto">4. Requisitos del proyecto</h1>
+<h2 id="41-requisitos-funcionales">4.1. Requisitos funcionales</h2>
+<p>Los requisitos funcionales describen las funciones que deberá proporcionar la aplicación web de TransNova Logistics.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito funcional</th>
+<th>Prioridad</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF-001</td>
+<td>El sistema deberá mostrar información sobre los servicios de TransNova Logistics.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-002</td>
+<td>El sistema deberá permitir gestionar la información de los clientes.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-003</td>
+<td>El sistema deberá permitir gestionar la información de los envíos.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-004</td>
+<td>El sistema deberá permitir gestionar la información de los servicios.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-005</td>
+<td>El sistema deberá permitir introducir información mediante formularios web.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-006</td>
+<td>El sistema deberá almacenar la información introducida en la base de datos.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-007</td>
+<td>El sistema deberá permitir consultar información almacenada en la base de datos.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-008</td>
+<td>La aplicación deberá comunicarse con la base de datos mediante el servidor.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-009</td>
+<td>El servidor deberá alojar y proporcionar acceso a la aplicación web mediante Apache.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RF-010</td>
+<td>El sistema deberá permitir realizar pruebas para comprobar el funcionamiento de la aplicación y sus servicios.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>## 4.2. Requisitos no funcionales</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Los requisitos no funcionales definen las características de calidad, seguridad, rendimiento y mantenimiento que deberá cumplir la solución.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito no funcional</th>
+<th>Prioridad</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF-001</td>
+<td>La aplicación deberá presentar un tiempo de respuesta adecuado durante su utilización.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RNF-002</td>
+<td>La aplicación deberá adaptarse correctamente a diferentes tamaños de pantalla.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RNF-003</td>
+<td>La información almacenada deberá protegerse frente a accesos no autorizados.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RNF-004</td>
+<td>El servidor y los servicios utilizados deberán mantenerse actualizados.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RNF-005</td>
+<td>Deberán realizarse copias de seguridad de la información importante.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RNF-006</td>
+<td>La aplicación deberá estar disponible durante las pruebas y demostraciones previstas.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RNF-007</td>
+<td>La solución deberá estar documentada para facilitar su mantenimiento y configuración.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RNF-008</td>
+<td>Los diferentes componentes deberán estar organizados de forma que faciliten su mantenimiento.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+</tbody>
+</table>
+<h2 id="43-requisitos-de-negocio">4.3. Requisitos de negocio</h2>
+<p>Los requisitos de negocio describen las necesidades principales que debe cubrir la solución desde el punto de vista de la actividad de TransNova Logistics.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito de negocio</th>
+<th>Prioridad</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RN-001</td>
+<td>La solución deberá facilitar la gestión de la información relacionada con los clientes.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RN-002</td>
+<td>La solución deberá facilitar la gestión de los envíos realizados por la empresa.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RN-003</td>
+<td>La solución deberá permitir gestionar la información de los servicios ofrecidos.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RN-004</td>
+<td>La información de clientes, envíos y servicios deberá mantenerse centralizada.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RN-005</td>
+<td>La aplicación deberá facilitar el acceso a la información necesaria para la gestión de la actividad.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>RN-006</td>
+<td>La solución deberá permitir ampliar sus funcionalidades en futuras fases del proyecto.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+</tbody>
+</table>
+<h2 id="44-requisitos-por-modulos-de-asir">4.4. Requisitos por módulos de ASIR</h2>
+<h3 id="441-asgbd">4.4.1. ASGBD</h3>
+<p>Los requisitos relacionados con el módulo de Administración de Sistemas Gestores de Bases de Datos se centran en la instalación, configuración y gestión de la base de datos utilizada por la aplicación.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Prioridad</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASGBD-001</td>
+<td>El sistema deberá disponer de un sistema gestor de bases de datos para almacenar la información de la aplicación.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASGBD-002</td>
+<td>La base de datos deberá almacenar información relacionada con clientes, envíos y servicios.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASGBD-003</td>
+<td>El sistema deberá permitir realizar consultas sobre la información almacenada.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASGBD-004</td>
+<td>Se deberán realizar copias de seguridad de la base de datos.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASGBD-005</td>
+<td>El acceso a la base de datos deberá estar protegido mediante usuarios y permisos adecuados.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="442-aso">4.4.2. ASO</h3>
+<p>Los requisitos relacionados con el módulo de Administración de Sistemas Operativos se centran en la configuración y mantenimiento del servidor Linux que proporcionará los servicios necesarios para la aplicación.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Prioridad</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASO-001</td>
+<td>El servidor deberá utilizar Ubuntu Server como sistema operativo.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASO-002</td>
+<td>El servidor deberá disponer de Apache para alojar la aplicación web.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASO-003</td>
+<td>El sistema deberá disponer de los servicios necesarios para ejecutar la aplicación web.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASO-004</td>
+<td>El servidor deberá mantenerse actualizado mediante las herramientas de actualización del sistema.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASO-005</td>
+<td>El sistema deberá disponer de una configuración de red adecuada para permitir el funcionamiento de la aplicación.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>ASO-006</td>
+<td>Se deberán realizar tareas básicas de mantenimiento y comprobación del funcionamiento del servidor.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="443-iaw">4.4.3. IAW</h3>
+<p>Los requisitos relacionados con el módulo de Implantación de Aplicaciones Web se centran en el desarrollo, configuración y despliegue de la aplicación web de TransNova Logistics.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Prioridad</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IAW-001</td>
+<td>La aplicación deberá estar disponible mediante un servidor web Apache.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>IAW-002</td>
+<td>La aplicación deberá permitir la introducción de información mediante formularios web.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>IAW-003</td>
+<td>La aplicación deberá comunicarse con la base de datos para almacenar y consultar información.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>IAW-004</td>
+<td>La aplicación deberá mostrar correctamente la información obtenida de la base de datos.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>IAW-005</td>
+<td>La aplicación deberá mantener una estructura organizada que facilite su mantenimiento.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>IAW-006</td>
+<td>Se deberán realizar pruebas para comprobar el correcto funcionamiento de la aplicación web.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="444-servicios-de-red-e-internet">4.4.4. Servicios de Red e Internet</h3>
+<p>Los requisitos relacionados con el módulo de Servicios de Red e Internet se centran en la configuración de la red y de los servicios necesarios para permitir la comunicación con la aplicación web.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Prioridad</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SRI-001</td>
+<td>El servidor deberá disponer de una configuración de red adecuada para proporcionar los servicios de la aplicación.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SRI-002</td>
+<td>La red deberá permitir la comunicación entre la aplicación web y la base de datos.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SRI-003</td>
+<td>El servidor web deberá estar accesible desde los equipos utilizados para realizar las pruebas.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SRI-004</td>
+<td>Se deberán comprobar los servicios de red necesarios para garantizar el funcionamiento de la aplicación.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SRI-005</td>
+<td>La configuración de red deberá documentarse para facilitar su mantenimiento.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="445-seguridad-y-alta-disponibilidad">4.4.5. Seguridad y Alta Disponibilidad</h3>
+<p>Los requisitos relacionados con Seguridad y Alta Disponibilidad se centran en proteger la información y mantener el funcionamiento de los servicios utilizados por la aplicación.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Prioridad</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SA-001</td>
+<td>El acceso a los servicios del sistema deberá estar protegido mediante usuarios y permisos adecuados.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SA-002</td>
+<td>Se deberán aplicar medidas básicas de seguridad en el servidor y en la aplicación web.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SA-003</td>
+<td>La información importante deberá disponer de copias de seguridad.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SA-004</td>
+<td>Se deberán realizar pruebas para comprobar la recuperación de la información a partir de las copias de seguridad.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SA-005</td>
+<td>Se deberán mantener actualizados el sistema operativo y los servicios utilizados.</td>
+<td>Alta</td>
+<td>Planificado</td>
+</tr>
+<tr>
+<td>SA-006</td>
+<td>Se deberán documentar las medidas de seguridad y los procedimientos de recuperación utilizados.</td>
+<td>Media</td>
+<td>Planificado</td>
+</tr>
+</tbody>
+</table>
+<h2 id="45-matriz-de-trazabilidad">4.5. Matriz de trazabilidad</h2>
+<p>La matriz de trazabilidad relaciona los requisitos definidos en el proyecto con los módulos de ASIR que intervienen en su desarrollo.</p>
+<table>
+<thead>
+<tr>
+<th>Requisito</th>
+<th>ASGBD</th>
+<th>ASO</th>
+<th>IAW</th>
+<th>Servicios de Red e Internet</th>
+<th>Seguridad y Alta Disponibilidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF-001</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RF-002</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RF-003</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RF-004</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RF-005</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RF-006</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RF-007</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RF-008</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+</tr>
+<tr>
+<td>RF-009</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+</tr>
+<tr>
+<td>RF-010</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RNF-001</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RNF-002</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RNF-003</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+</tr>
+<tr>
+<td>RNF-004</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr>
+<td>RNF-005</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr>
+<td>RNF-006</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RNF-007</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RNF-008</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+</tr>
+<tr>
+<td>RN-001</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RN-002</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RN-003</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RN-004</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RN-005</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+</tr>
+<tr>
+<td>RN-006</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
